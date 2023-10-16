@@ -1,7 +1,7 @@
 export const navigationtop = [
     { name: "HOTELS", href: "hotel", current: true },
     { name: "OFFERS", href: "offers", current: false, },
-    { name: "ROOMS", href: "rooms", current: false,submenu:[{name:'ROOMS & SUITS',href:'',current: false,},{name:'BUNKS',href:'',current: false,},{name:'LONG TERM STAY',href:'',current: false,}] },
+    { name: "ROOMS", href: "rooms", current: false,submenu:[{name:'ROOMS & SUITS',href:'rooms',current: false,},{name:'BUNKS',href:'bunks',current: false,},{name:'LONG TERM STAY',href:'long-term-stay',current: false,}] },
     { name: "EAT & DRINKS", href: "eat-drink", current: false }
   ];
   export const navigationbottom = [
