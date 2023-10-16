@@ -1,6 +1,6 @@
 'use client'
 import { useState } from "react";
-
+import { FaAngleLeft,FaAngleRight } from "react-icons/fa";
 
 const RoomsSuits=()=>{
     const imageUrls=[
@@ -102,11 +102,23 @@ const RoomsSuits=()=>{
           <div className=" max-w-[1200px] mx-auto flex flex-col">
             <h2 className="text-center text-3xl">SUITES</h2>
             <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/2 px-4 py-4">
-                <div>
-                  <img src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1588111661327-B62A9INRM6T4BRV6LWYJ/CLE-A-301-064.jpg?format=2500w" />
-                </div>
-              </div>
+            <div className="md:w-1/2 px-4 py-4 relative">
+         
+  <img src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1588111661327-B62A9INRM6T4BRV6LWYJ/CLE-A-301-064.jpg?format=2500w" alt="Image" />
+  
+  {/* Left arrow icon */}
+  <div className="absolute top-1/2 left-2 transform -translate-y-1/2">
+    <FaAngleLeft className="w-8 h-8"/>
+  </div>
+
+  {/* Right arrow icon */}
+  <div className="absolute top-1/2 right-2 transform -translate-y-1/2">
+  <FaAngleRight className="w-8 h-8"/>
+  </div>
+
+
+</div>
+
               <div className="md:w-1/2 px-4 py-4">
                 <h1 className="leading-8 text-lg">
                   HOTEL CLERMONT OFFERS TWO DIFFERENT LAVISH SUITES: THE RUBY
@@ -175,10 +187,19 @@ const RoomsSuits=()=>{
           <div className=" max-w-[1200px] mx-auto flex flex-col">
           <h2 className="text-center text-3xl uppercase py-4">Accessible Rooms</h2>
             <div className="flex flex-col md:flex-row">
-              <div className="md:w-1/2 px-4 py-4">
+              <div className="md:w-1/2 px-4 py-4 relative">
                 <div>
                   <img src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1588111661327-B62A9INRM6T4BRV6LWYJ/CLE-A-301-064.jpg?format=2500w" />
                 </div>
+                  {/* Left arrow icon */}
+  <div className="absolute top-1/2 left-2 transform -translate-y-1/2 bg-gray-400 hover:bg-gray-600 ml-4">
+    <FaAngleLeft className="w-8 h-8"/>
+  </div>
+
+  {/* Right arrow icon */}
+  <div className="absolute top-1/2 right-2 transform -translate-y-1/2 bg-gray-400 hover:bg-gray-600 mr-4">
+  <FaAngleRight className="w-8 h-8"/>
+  </div>
               </div>
               <div className="md:w-1/2 px-4 py-4">
               <p className="leading-8 py-2">HOTEL CLERMONT OFFERS TWO TYPES OF ACCESSIBLE ROOMS AT OUR PROPERTY. ACCESSIBILITY FEATURES INCLUDE:</p>
