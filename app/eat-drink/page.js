@@ -11,7 +11,7 @@ const EatDrinks=()=>{
             <div className="flex flex-col md:flex-row">
               <div className="md:w-1/2 flex flex-col">
                 <h1 className="text-center py-4">TINY LOU’S</h1>
-                <p className="text-center py-4 leading-2 px-4">
+                <p className="text-center py-4 leading-2 px-4 ">
                   Named after the popular 1950s dancer in the Clermont Motor
                   Hotel’s “Gypsy Room,”&nbsp;our swinging French-American
                   brasserie lovingly serves up dishes using seasonal and local

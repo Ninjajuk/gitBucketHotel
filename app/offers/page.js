@@ -11,7 +11,7 @@ const OfferPage = () => {
     <>
       <div className=" bg-[#cee3d9]">
         <div className=" max-w-[1200px] mx-auto ">
-        <h1 className='text-center text-3xl pt-8 font-sans font-medium'>SPECIALS & OFFERS</h1>
+        <h1 className='text-center text-3xl pt-8 font-sans font-medium tracking-widest'>SPECIALS & OFFERS</h1>
         <p className='text-center leading-10 pt-4'>Book direct on our website and select one of our many promotions for added benefits. Flexible cancelations, complimentary welcome beverage, and our best available rates are all benefits that the other booking sites just can’t offer. Want to be the first to know about our upcoming specials and events? </p>
           <p className='text-center mt-4 underline'>Sign up for our email list to be an insider.</p>
           <div className="flex flex-col md:flex-row w-full py-[65px] lg:px-[80px]">
@@ -55,10 +55,10 @@ const OfferPage = () => {
         <img src={item.img} alt="" className="w-full h-auto" />
       </div>
       <div className="w-full  my-4">
-        <h1 className="text-3xl font-bold my-4 uppercase">
+        <h1 className="text-3xl font-normal my-4 uppercase tracking-wider font-roboto">
           {item.title}
         </h1>
-        <p className="text-lg mb-4">
+        <p className="text-lg mb-4"style={{fontFamily: 'Courier Prime'}}>
           {item.description}
         </p>
         <button

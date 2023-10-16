@@ -270,7 +270,7 @@ const ContactForm = () => {
                 <div className="py-2">
                   <label htmlFor="firstName">Start Time</label>
                   <input
-                    type="date"
+                    type="time"
                     id="starttime"
                     name="starttime"
                     value={formData.firstName}
@@ -279,10 +279,10 @@ const ContactForm = () => {
                     className="w-full p-2 border rounded"
                   />
                 </div>
-                <div>
+                <div  className="py-2">
                   <label htmlFor="endtime">End Time</label>
                   <input
-                    type="date"
+                    type="time"
                     id="endtime"
                     name="endtime"
                     value={formData.lastName}
