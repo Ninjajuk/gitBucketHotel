@@ -6,7 +6,7 @@ export const navigationtop = [
   ];
   export const navigationbottom = [
     { name: "GROUPS", href: "groups-events", current: true },
-    { name: "GALARY", href: "gallary", current: false },
+    { name: "GALLARY", href: "gallary", current: false },
     { name: "EXPERINCE", href: "experince", current: false,submenu:[{name:'EXPLORE ATLANTA',href:'',current: false,},{name:'CLERMONT EVENTS',href:'',current: false,},{name:'PARTY',href:'',current: false,}] },
     { name: "SHOP", href: "shop", current: false }
   ];
