@@ -1,3 +1,6 @@
+
+import CustomerQuoteForm from "./customerquoteform";
+
 const LongTermStay=()=>{
     return (
       <>
@@ -11,8 +14,8 @@ const LongTermStay=()=>{
           />
      
         </div>
-        <div className="max-w-[1200px] mx-auto px-[120px]">
-            <h1 className="text-center leading-10 py-4">
+        <div className="max-w-[1200px] mx-auto lg:px-[120px]">
+            <h1 className="text-center py-4">
               Welcome to Hotel Clermont, where anything goes, and everyone’s
               welcome. Whether you're part of the vibrant TV/Entertainment
               industry, a dedicated Healthcare and Medical Professional, or a
@@ -20,7 +23,7 @@ const LongTermStay=()=>{
               make your extended stay in Atlanta exceptional.
             </h1>
 
-            <h2 className="text-center text-5xl font-semibold py-8 leading-10">
+            <h2 className="text-center text-5xl font-semibold py-8 ">
               Lights, Camera, Relaxation!{" "}
             </h2>
 
@@ -38,7 +41,7 @@ const LongTermStay=()=>{
               and sets, you'll have easy access to your work while experiencing
               the best that Atlanta has to offer.
             </p>
-            <h2 className="text-center text-5xl font-semibold py-8 leading-10">
+            <h2 className="text-center text-5xl font-semibold py-8 ">
               Paging Accommodations
             </h2>
 
@@ -65,7 +68,7 @@ const LongTermStay=()=>{
               data-rte-preserve-empty="true"
               className="white-space:pre-wrap;"
             ></p>
-            <h2 className="text-center text-5xl font-semibold py-8 leading-10">
+            <h2 className="text-center text-5xl font-semibold py-8 ">
               Workin’ 9 to 5
             </h2>
             <p
@@ -84,7 +87,7 @@ const LongTermStay=()=>{
               class=""
               data-rte-preserve-empty="true"
             ></p>
-            <p className="text-center py-4 leading-5">
+            <p className="text-center py-4 ">
               Our central location near downtown, midtown, and Ponce City Market
               ensures you can make the most of your time in Atlanta. After a
               productive day, unwind on our scenic rooftop bar or take a short
@@ -103,13 +106,16 @@ const LongTermStay=()=>{
               data-rte-preserve-empty="true"
               className="white-space:pre-wrap;"
             ></p>
-            <h1 className="text-center py-4 leading-10">
+            <h1 className="text-center py-4 ">
               Book your long-term hotel room reservation with us and experience
               the perfect blend of comfort and convenience at Hotel Clermont.
               Reach out to a member of our hotel team to receive a CUSTOM rate
               for your stay.
             </h1>
           </div>
+          <CustomerQuoteForm/>
+          <p class="text-base md:text-lg lg:text-xl text-center">This is some text with varying font sizes.</p>
+
       </>
     );
 }
