@@ -168,8 +168,7 @@ const EatDrinks=()=>{
         {/* 
         THE LOBBY BAR ends here */}
 
-
-   {/* ON SITE TO SERVE YOU starts  here */}
+        {/* ON SITE TO SERVE YOU starts  here */}
         <section className="bg-[#6dace6] w-full min-h-screen">
           <div className="max-w-[1200px] mx-auto py-[80px] px-[65px]">
             <h1 className="py-8 text-center text-3xl">ON SITE TO SERVE YOU</h1>
@@ -192,11 +191,16 @@ const EatDrinks=()=>{
               </div>
             </div>
             <div className="max-w-[800px] mx-auto pt-8">
-                <img className="w-full h-full object-cover" src='https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1591648556959-NSFJ8M2FUR9AZNBOQGI5/cle_illo_23.png?format=2500w'/>
+              <div className=" w-[400px] h-[300px] mx-auto">
+                <img
+                  className="w-full h-full object-cover"
+                  src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1591648556959-NSFJ8M2FUR9AZNBOQGI5/cle_illo_23.png?format=2500w"
+                />
+              </div>
             </div>
           </div>
         </section>
-           {/* ON SITE TO SERVE YOU Ends  here */}
+        {/* ON SITE TO SERVE YOU Ends  here */}
       </>
     );
 }
