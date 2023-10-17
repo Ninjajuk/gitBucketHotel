@@ -46,7 +46,7 @@ const CustomerQuoteForm = () => {
 
   return (
     <div className="max-w-2xl mx-auto my-8">
-      <h1 className="text-3xl font-bold py-4 tracking-widest text-center">
+      <h1 className="text-lg md:text-3xl font-bold py-4 tracking-widest md:text-center">
         REQUEST A CUSTOM QUOTE
       </h1>
       <form onSubmit={handleSubmit} className="space-y-4">

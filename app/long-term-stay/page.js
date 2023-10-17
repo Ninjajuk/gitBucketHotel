@@ -14,7 +14,7 @@ const LongTermStay=()=>{
           />
      
         </div>
-        <div className="max-w-[1200px] mx-auto px-[120px]">
+        <div className="max-w-[1200px] mx-auto lg:px-[120px]">
             <h1 className="text-center py-4">
               Welcome to Hotel Clermont, where anything goes, and everyone’s
               welcome. Whether you're part of the vibrant TV/Entertainment
@@ -114,6 +114,8 @@ const LongTermStay=()=>{
             </h1>
           </div>
           <CustomerQuoteForm/>
+          <p class="text-base md:text-lg lg:text-xl text-center">This is some text with varying font sizes.</p>
+
       </>
     );
 }

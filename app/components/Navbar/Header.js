@@ -12,7 +12,7 @@ const Header = () => {
     }
   };
   return (
-    <header className="bg-[#cee3d9]   sticky top-0 z-10">
+    <header className="bg-[#cee3d9]   sticky top-0 z-10 w-full">
       <nav className="">
         <div className="hidden md:flex items-center justify-around py-[13px] px-auto">
           <div className="max-w-[200px]">
@@ -112,7 +112,7 @@ const Header = () => {
       </div>
     </div>
       </nav>
-      <div className='border-4 border-indigo-600'></div>
+      {/* <div className='border-4 border-indigo-600'></div> */}
     </header>
    
   );
