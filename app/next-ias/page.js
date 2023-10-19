@@ -1,4 +1,20 @@
+'use client'
+import React, { useState } from "react";
+import WhatsNew from "./whatnew";
+import StudentCorner from "./studentcorner";
+
 const NextIas=()=>{
+    const[whatsnewactive,setWhatnewActive]=useState(false)
+    const[studentcorner,setStudentcorner]=useState(false)
+
+    function handleWhatsnew(){
+        setWhatnewActive(true)
+        setStudentcorner(false);
+    }
+    function handlestudentcorner(){
+        setStudentcorner(true)
+        setWhatnewActive(false);
+    }
 
     const gridColum4=[
         {title:'Current Affairs Magazine',
@@ -112,16 +128,19 @@ btn:'Read More'
           <div className="my-2 bg-green-400 px-2 py-4 h-[250px] rounded-md">
             <div className="flex gap-2 w-full h-full px-4">
                 <div className=" w-1/3 h-full bg-blue-400 flex flex-col">
-                    <div className="h-1/2 flex items-center px-4 bg-blue-600">
+                    <div onClick={handleWhatsnew} className="h-1/2 flex items-center px-4 bg-blue-600 cursor-pointer">
                         <div className="px-2"><img src='https://cdnstatic.nextias.com/assets/images/what_new_icon.png'/></div>
                         <div className="px-2 text-white">WHAT'S NEW</div>
                     </div>
-                    <div className="h-1/2 flex items-center px-4 bg-blue-300">
+                    <div onClick={handlestudentcorner} className="h-1/2 flex items-center px-4 bg-blue-300 cursor-pointer">
                         <div className="px-2"><img src='https://cdnstatic.nextias.com/assets/images/student_corner_icon.png'/></div>
                         <div className="px-2 text-white">STUDENT CORNER</div>
                     </div>
                 </div>
-                <div className="w-2/3  bg-gray-300">2</div>
+                <div className="w-2/3  bg-gray-300">
+                    {whatsnewactive ? <WhatsNew/>:null}
+                    {studentcorner ? <StudentCorner/>:null}
+                </div>
             </div>
           </div>
           </div>
