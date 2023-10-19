@@ -63,7 +63,7 @@ const RoomsSuits=()=>{
                 <div className="relative w-full  h-[450px] transition-opacity duration-500 ease-in-out">
                   <img
                     src={images[currentImageIndex]}
-                    className="h-full w-full object-cover transition-opacity duration-500 ease-in-out"
+                    className="h-full w-full object-cover transform -translate-x-4 transition-transform duration-350"
                     style={{ height: "100%", objectFit: "cover" }}
                   />
                   {/* Left arrow icon */}
@@ -108,15 +108,19 @@ const RoomsSuits=()=>{
                   <h3 onClick={handleAddons} className="cursor-pointer py-2">
                     <strong>+ ADD-ONS</strong>
                   </h3>
-                  {addons && (
-                    <ul>
-                      <li>Pet Fee</li>
-                      <li>Bottle of Sparkling Wine</li>
-                      <li>6 Pack of High Life Beer</li>
-                      <li>Mini Champagne</li>
-                      <li>Floral Arrangement</li>
-                    </ul>
-                  )}
+                  <div className={`transition-all ease-in-out duration-600 ${addons ? 'h-auto opacity-100' : 'h-0 opacity-0'}`}>
+        <ul className="list-none p-0 m-0">
+          {addons && (
+            <>
+              <li>Pet Fee</li>
+              <li>Bottle of Sparkling Wine</li>
+              <li>6 Pack of High Life Beer</li>
+              <li>Mini Champagne</li>
+              <li>Floral Arrangement</li>
+            </>
+          )}
+        </ul>
+      </div>
                 </div>
                 <div>
                   <button className="bg-[#ba9d5a] hover:bg-[#e0b755] px-4 py-2 text-white font-medium">
@@ -200,7 +204,7 @@ const RoomsSuits=()=>{
                     <strong>+ ADD-ONS</strong>
                   </h3>
                   {addons && (
-                    <ul>
+                    <ul className="transition-opacity ease-in-out duration-5000 opacity-0 max-h-[0] overflow-hidden">
                       <li>Pet Fee</li>
                       <li>Bottle of Sparkling Wine</li>
                       <li>6 Pack of High Life Beer</li>

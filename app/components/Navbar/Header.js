@@ -16,13 +16,14 @@ const Header = () => {
       <nav className="">
         <div className="hidden md:flex items-center justify-around py-[13px] px-auto">
           <div className="max-w-[200px]">
-            <a className="navbar-brand" href="#">
+            <Link className="navbar-brand" href="/">
               <img
                 src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1587580181090-EYHUTAU9LD1PHOKJD8XM/cle_logo_01.png?format=1500w"
                 alt=""
               />
-            </a>
+            </Link>
           </div>
+
 
           <div className="flex flex-col space-x-4 px-2">
             <div className='flex px-2 py-2'>
@@ -73,6 +74,7 @@ const Header = () => {
             </a>
           </div>
         </div>
+        <div className='w-full border-2 border-yellow-500'></div>
 
         <div
       className="md:hidden sticky top-0 z-10  flex items-center justify-around p-4 bg-[#cee3d9] "
@@ -114,6 +116,7 @@ const Header = () => {
       </nav>
       {/* <div className='border-4 border-indigo-600'></div> */}
     </header>
+   
    
   );
 };
