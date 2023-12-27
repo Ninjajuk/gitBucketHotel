@@ -17,7 +17,7 @@ const LongTermStay=()=>{
         <div className="max-w-[1200px] mx-auto lg:px-[120px]">
             <h1 className="text-center py-4">
               Welcome to Hotel Clermont, where anything goes, and everyone’s
-              welcome. Whether you're part of the vibrant TV/Entertainment
+              welcome. Whether you re part of the vibrant TV/Entertainment
               industry, a dedicated Healthcare and Medical Professional, or a
               savvy Business/Tech traveler, our hotel is the perfect choice to
               make your extended stay in Atlanta exceptional.
@@ -38,7 +38,7 @@ const LongTermStay=()=>{
             </p>
             <p className="text-center" >
               With our central location to all surrounding Atlanta film studios
-              and sets, you'll have easy access to your work while experiencing
+              and sets, you ll have easy access to your work while experiencing
               the best that Atlanta has to offer.
             </p>
             <h2 className="text-center text-5xl font-semibold py-8 ">

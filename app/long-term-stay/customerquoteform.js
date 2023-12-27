@@ -151,7 +151,7 @@ const CustomerQuoteForm = () => {
         <div>
           <h2 className="my-2 font-normal">Message *</h2>
           <label htmlFor="additionalInformation" className="text-sm">
-            Please provide any additional details that you'd like for us to
+            Please provide any additional details that you d like for us to
             know, like reason for stay, amenities needed, etc.
           </label>
           <textarea

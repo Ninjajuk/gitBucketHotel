@@ -128,7 +128,7 @@ const EatDrinks=()=>{
                   <h1 className="text-center py-4">THE LOBBY BAR</h1>
                   <p className="text-center py-4 px-2">
                     Find a nook and make it yours. A dark, comfy place to while
-                    away your time. Late night bites available from Tiny Lou's.
+                    away your time. Late night bites available from Tiny Lou s.
                   </p>
                 </div>
                 <div className="px-4">
