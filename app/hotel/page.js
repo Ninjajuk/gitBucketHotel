@@ -11,7 +11,7 @@ const Hotel=()=>{
                 src="https://images.squarespace-cdn.com/content/v1/5ea0614a23978f42dee12261/1587765440843-6F8UWTE06AZSMX5H03UY/cle_illo_07.gif?format=2500w"
               />
             </div>
-            <h1 className="text-center font-serif font-medium py-4 text-3xl mb-4">EVERYONE IS WELCOME</h1>
+            <h1 className="text-center font-serif font-medium py-4 text-3xl mb-4">EVERYONE IS WELCOME!</h1>
           </div>
         </div>
 
